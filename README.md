@@ -6,7 +6,7 @@ The catch? The audio files are "messy mashups"—they have overlapping vocals, d
 
 ---
 
-## 🚀 How Our Pipeline Works
+## How Our Pipeline Works
 
 ### 1. Data Augmentation & Stem Mixing
 Because real-world music has clean parts and noisy parts, we didn't train on simple tracks. We built a custom training dataset generator that:
@@ -22,7 +22,7 @@ We used `librosa` and `torchaudio` to process the waveforms:
 
 ---
 
-## 🧠 Models We Explored
+## Models We Explored
 
 We tried a few different architectures to see what works best:
 
@@ -36,7 +36,7 @@ Our fine-tuned AST model is uploaded on Hugging Face at [udit789/Messy-Mashup-AS
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 Here’s a quick guide to what is in each folder:
 
@@ -56,7 +56,7 @@ Here’s a quick guide to what is in each folder:
 
 ---
 
-## 🛠️ How to Run the Web App Local Server
+## How to Run the Web App Local Server
 
 We built a simple Gradio UI to test the classifier locally.
 
